@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/go-ole/go-ole"
+)
 
 func main() {
 
-	fmt.Print("Hello World!")
+	fmt.Println(ole.IID_IUnknown)
+	fmt.Print("hello world")
 }
