@@ -13,11 +13,15 @@ func main() {
 	//fmt.Println(ch)
 	//fmt.Println(chh)
 
-	ch  := '\u0041'
-	ch2 := '\u03B2'
-	ch3 := '\U00101234'
-	fmt.Printf("%d - %d - %d\n", ch, ch2, ch3) // integer
-	fmt.Printf("%c - %c - %c\n", ch, ch2, ch3) // character
-	fmt.Printf("%X - %X - %X\n", ch, ch2, ch3) // UTF-8 bytes
-	fmt.Printf("%U - %U - %U", ch, ch2, ch3)   // UTF-8 code point
+	//ch  := '\u0041'
+	//ch2 := '\u03B2'
+	//ch3 := '\U00101234'
+	//fmt.Printf("%d - %d - %d\n", ch, ch2, ch3) // integer
+	//fmt.Printf("%c - %c - %c\n", ch, ch2, ch3) // character
+	//fmt.Printf("%X - %X - %X\n", ch, ch2, ch3) // UTF-8 bytes
+	//fmt.Printf("%U - %U - %U", ch, ch2, ch3)   // UTF-8 code point
+	//
+	var ch4 rune = '天'
+
+	fmt.Println(ch4)
 }
